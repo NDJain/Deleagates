@@ -12,7 +12,7 @@ namespace Deleagtes
         {
             if (collection == null || !collection.Any())
             {
-                throw new ArgumentException("Collection is null or empty.");
+                throw new ArgumentException("Пустая коллекция");
             }
 
             T maxElement = null;
